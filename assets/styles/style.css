@@ -41,6 +41,9 @@ section + section {
 #about p + p {
   margin-top: 12px;
 }
+#preparation p + p {
+  margin-top: 12px;
+}
 
 h1 {
   line-height: 140%;
