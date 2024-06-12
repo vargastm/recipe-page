@@ -12,6 +12,7 @@
 body {
   background-image: url(../images/bg-image.jpg);
   background-size: cover;
+  padding: 24px;
 }
 
 
@@ -26,6 +27,7 @@ body {
 
 img {
   border-radius: 16px;
+  width: 100%;
 }
 
 main { 
@@ -74,4 +76,10 @@ footer a {
 
 footer a:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 12px;
+  }
 }
